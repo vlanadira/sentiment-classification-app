@@ -3,7 +3,6 @@
 This repository contains the complete implementation of my undergraduate thesis: **"IMPLEMENTATION OF CRISP-DM FOR SENTIMENT ANALYSIS ON STEAM GAME REVIEWS"**,
 designed to classify game reviews into Positive or Negative sentiments. The project utilizes the CRISP-DM methodology and compares four Deep Learning architectures (LSTM, GRU, BiLSTM, BiGRU) with various imbalance handling techniques.
 
-## Environment Specifications
 # Step 1: Install Python
 Make sure Python is installed on your system
 
