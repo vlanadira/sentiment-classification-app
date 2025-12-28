@@ -1,7 +1,7 @@
 ## Welcome to the Steam Review Sentiment Analysis project!
 
 This repository contains the complete implementation of my undergraduate thesis: **"IMPLEMENTATION OF CRISP-DM FOR SENTIMENT ANALYSIS ON STEAM GAME REVIEWS"**,
-designed to classify Steam game reviews into Positive or Negative sentiments. The project utilizes the CRISP-DM methodology and compares four Deep Learning architectures (LSTM, GRU, BiLSTM, BiGRU) with various imbalance handling techniques. The final deployed model uses BiLSTM with Class Weighting for optimal performance.
+designed to classify game reviews into Positive or Negative sentiments. The project utilizes the CRISP-DM methodology and compares four Deep Learning architectures (LSTM, GRU, BiLSTM, BiGRU) with various imbalance handling techniques.
 
 ## Environment Specifications
 # Step 1: Install Python
@@ -107,7 +107,7 @@ http://localhost:8501
 
 If not, copy the URL from the terminal and open it manually.
 
-Enter any game review text and click “Analyze Sentiment”.
+Enter any game review text and click **“Analyze Sentiment”**.
 
 If you have any questions or issues running this project, feel free to reach out.
 
