@@ -9,7 +9,7 @@ https://sentiment-classification-app-ng8fdtgtfukvsyxqnvf2e5.streamlit.app/
 # Step 1: Install Python
 Make sure Python is installed on your system
 
-Recommeded version: Python 3.10-3.12
+Recommended version: Python 3.10-3.12
 ### Python : [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
 After installation, verify it by running:
@@ -55,7 +55,7 @@ Activate the environment:
 venv\Scripts\activate
 ```
 
-### macOS / Linux
+### macOS/Linux
 
 ```
 source venv/bin/activate
