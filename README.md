@@ -81,7 +81,7 @@ streamlit run app.py
 This project provides two Deep Learning models:
 ### 1. Best Performance Model
 - Selected from 12 trained models
-- Optimized based on evaluation metrics (Accuracy, F1, ROC AUC)
+- Optimized based on evaluation metrics
 ### 2. Best General Model
 More stable and balanced performance across different inputs
 
@@ -110,7 +110,11 @@ If not, copy the URL from the terminal and open it manually.
 Enter any game review text and click “Analyze Sentiment”.
 
 If you have any questions or issues running this project, feel free to reach out.
-Author: Vladdifka Nadira Adha Adrian
-Email: vladdifkandr13@gmail.com
-LinkedIn: www.linkedin.com/in/vladdifka-nadira
+
+**Author:** Vladdifka Nadira Adha Adrian
+
+**Email:** vladdifkandr13@gmail.com
+
+**LinkedIn:** www.linkedin.com/in/vladdifka-nadira
+
 Happy Coding & Gaming! 🎮
