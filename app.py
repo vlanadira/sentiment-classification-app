@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 # Load model & tokenizer (pake cache biar gak reload terus)
 @st.cache_resource
 def load_model_and_tokenizer():
-    model = load_model("gru_sentiment_model.h5")
+    model = load_model("Models/gru_sentiment_model.h5")
     with open("tokenizer-3.pkl", "rb") as f:
         tokenizer = pickle.load(f)
     return model, tokenizer
