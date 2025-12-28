@@ -28,10 +28,11 @@ python --version
 | wordcloud | >= 1.9.3 | 1.9.3 |
 
 ### NLTK Resources
-```python
+```
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+```
 
 > Results may slightly vary when using different library versions, especially for deep learning models.
 
@@ -40,27 +41,33 @@ Using a virtual environment is highly recommended to avoid dependency conflicts.
 Clone this repository or download it as ZIP
 Open terminal / command prompt inside the project folder
 Create a virtual environment:
+
 ```
 python -m venv venv
 ```
 
 Activate the environment:
 ### Windows
+
 ```
 venv\Scripts\activate
 ```
+
 ### macOS / Linux
+
 ```
 source venv/bin/activate
 ```
 
 # Step 3: Install Dependencies
 Install all required libraries using the provided requirements.txt:
+
 ```
 pip install -r requirements.txt
 ```
 
 If you are using **macOS with VS Code**, you can also install dependencies manually
+
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -86,15 +93,18 @@ Make sure the following files exist in the project root directory
 - tokenizer-3.pkl – tokenizer for text preprocessing
 
 ## 3. Run Streamlit
+
 ```
 streamlit run app.py
 ```
 
 ## 4. Access the Web App
 The app will automatically open in your browser:
+
 ```
 http://localhost:8501
 ```
+
 If not, copy the URL from the terminal and open it manually.
 
 Enter any game review text and click “Analyze Sentiment”.
