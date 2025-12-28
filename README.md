@@ -11,7 +11,8 @@ Recommeded version: Python 3.10-3.12
 ### Python : [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
 After installation, verify it by running:
-```python --version
+```
+python --version
 ```
 
 | Library | Minimum Version | Tested Version |
